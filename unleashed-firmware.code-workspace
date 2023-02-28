@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "unleashed-firmware-1",
+			"path": "../unleashed-firmware-1"
+		}
+	],
+	"settings": {}
+}
