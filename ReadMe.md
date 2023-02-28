@@ -68,10 +68,11 @@ Encoders/sending made by Eng1n33r & @xMasterX:
 - Keeloq: FAAC RC,XT
 - Keeloq: Mutancode
 - Keeloq: Normstahl
+- Keeloq: Beninca
 - CAME Atomo
 - Nice Flor S
 - FAAC SLH (Spa) [External seed calculation required (For info contact me in Discord: Nano#8998)] 
-- BFT Mitto [External seed calculation required (For info contact me in Discord: Nano#8998)] 
+- Keeloq: BFT Mitto [External seed calculation required (For info contact me in Discord: Nano#8998)] 
 - Security+ v1 & v2
 - Star Line
 
@@ -139,6 +140,7 @@ You can support us by using links or addresses below:
 - Text Viewer [(by kowalski7cc & kyhwana)](https://github.com/kowalski7cc/flipper-zero-text-viewer/tree/refactor-text-app)
 - **UART Terminal** [(by cool4uma)](https://github.com/cool4uma/UART_Terminal/tree/main)
 - **ProtoView** [(by antirez)](https://github.com/antirez/protoview)
+- **SWD Probe** [(by g3gg0)](https://github.com/g3gg0/flipper-swd_probe)
 
 Games:
 - DOOM (fixed) [(by p4nic4ttack)](https://github.com/p4nic4ttack/doom-flipper-zero/)
@@ -163,6 +165,12 @@ Games:
 - Sub-GHz -> Press OK in frequency analyzer to use detected frequency in Read modes [(by derskythe)](https://github.com/DarkFlippers/unleashed-firmware/pull/77)
 - Sub-GHz -> Long press OK button in Sub-GHz Frequency analyzer to switch to Read menu [(by derskythe)](https://github.com/DarkFlippers/unleashed-firmware/pull/79)
 - Lock device with pin(or regular lock if pin not set) by holding UP button on main screen [(by an4tur0r)](https://github.com/DarkFlippers/unleashed-firmware/pull/107)
+* SubGHz -> **Hold right in received signal list to delete selected signal**
+* SubGHz -> **Custom buttons for Keeloq / Alutech AT4N / Nice Flor S / Somfy Telis** - now you can use arrow buttons to send signal with different button code
+* SubGHz -> BFT Mitto / Somfy Telis / Nice Flor S manual creation with programming new remote into receiver (use button 0xF for BFT Mitto, 0x8 (Prog) on Somfy Telis)
+* SubGHz -> Debug mode counter increase settings (+5, +10, default: +1)
+* SubGHz -> Debug PIN output settings for protocol development
+* Infrared -> Debug TX PIN output settings
 
 # Instructions
 ## [- How to install firmware](https://github.com/DarkFlippers/unleashed-firmware/blob/dev/documentation/HowToInstall.md)
@@ -175,11 +183,19 @@ Games:
 
 ## [- How to change Flipper name](https://github.com/DarkFlippers/unleashed-firmware/blob/dev/documentation/CustomFlipperName.md)
 
+### **Sub-GHz**
+
+## [- Transmission is blocked? - How to extend Sub-GHz frequency range](https://github.com/DarkFlippers/unleashed-firmware/blob/dev/documentation/DangerousSettings.md)
+
+## [- How to add extra Sub-GHz frequencies](https://github.com/DarkFlippers/unleashed-firmware/blob/dev/documentation/SubGHzSettings.md)
+
+## [- How to use Flipper as new remote (Nice FlorS, BFT Mitto, Somfy Telis)](https://github.com/DarkFlippers/unleashed-firmware/blob/dev/documentation/SubGHzRemoteProg.md)
+
+## [- Configure Sub-GHz Remote App](https://github.com/DarkFlippers/unleashed-firmware/blob/dev/documentation/SubGHzRemotePlugin.md)
+
 ### **Plugins**
 
 ## [- 🎲 Download Extra plugins for Unleashed](https://github.com/xMasterX/unleashed-extra-pack)
-
-## [- Configure Sub-GHz Remote App](https://github.com/DarkFlippers/unleashed-firmware/blob/dev/documentation/SubGHzRemotePlugin.md)
 
 ## [- TOTP (Authenticator) config description](https://github.com/akopachov/flipper-zero_authenticator/blob/master/docs/conf-file_description.md)
 
@@ -214,12 +230,6 @@ Games:
 ## [- Windows: How to Upload .bin to ESP32/ESP8266](https://github.com/SequoiaSan/Guide-How-To-Upload-bin-to-ESP8266-ESP32)
 
 ## [- How to use: [GPIO] SentrySafe plugin](https://github.com/DarkFlippers/unleashed-firmware/blob/dev/documentation/SentrySafe.md)
-
-### **Sub-GHz**
-
-## [- Transmission is blocked? - How to extend Sub-GHz frequency range](https://github.com/DarkFlippers/unleashed-firmware/blob/dev/documentation/DangerousSettings.md)
-
-## [- How to add extra Sub-GHz frequencies](https://github.com/DarkFlippers/unleashed-firmware/blob/dev/documentation/SubGHzSettings.md)
 
 <br>
 <br>
